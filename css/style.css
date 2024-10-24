@@ -626,6 +626,25 @@ input {
 
 }
 
+
+.mobnav{
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    background: #000000c7;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+
+}
+
+.mobnav ul li{
+    margin-bottom: 20px;
+}
+.mobnav ul{
+    margin-top: 40px;
+}
+
 .bodersort{
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -705,6 +724,11 @@ input {
         padding-top: 130px;
     
     } 
+
+    .responsivemehead{
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
     .cutomContainer{
         padding: 20px;
     }
