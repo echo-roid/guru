@@ -1,0 +1,907 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: gilroy;
+    src: url(../font/gilroy/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: gilroyRegular;
+    src: url(../font/gilroy/Gilroy-Regular.ttf);
+}
+
+
+
+.font500{
+    font-family: gilroy;
+}
+
+
+.mob {
+    display: none;
+}
+
+.desk {
+    display: block;
+}
+
+/* h1{
+    font-size: 40px!important;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+button,
+ul {
+    font-family: gilroy;
+}
+
+p {
+    font-family: gilroyRegular;
+}
+
+.font14{
+  
+        font-size: 14px;
+}
+
+.buttonCommon {
+    padding: 12px 15px;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    font-size: 14px;
+    
+    align-items: center;
+    gap: 10px;
+}
+
+.buttonCommon img{
+    width: 7px!important;
+}
+
+
+
+.lightBlack {
+    color: #585858;
+}
+
+section {
+    overflow: hidden;
+}
+
+.font15px {
+    font-size: 15px;
+}
+
+.font13px {
+    font-size: 13px;
+}
+
+
+.sectiongray{
+    background: #F7F7F7;
+}
+
+.bordercs {
+    border: 1px solid #000;
+
+}
+
+.bgwhite{
+ background-color: white;
+}
+
+.borderRedius {
+    border-radius: 20px;
+}
+
+
+.colorBlack{
+    color: black;
+}
+.font400 {
+    font-weight: 400 !important;
+    font-family: gilroyRegular;
+}
+
+.fontsize {
+    font-size: 22px !important;
+}
+
+
+.headercutom{
+    box-shadow: 0px 6px 23px -16px #ccc;
+    padding: 14px;
+}
+
+.fontsize28px {
+    font-size: 28px !important;
+}
+
+.backgoundtransparent {
+    background-color: transparent !important;
+}
+
+.gray {
+    background-color: #F3F3F3;
+}
+
+
+.bgBlack{
+ background-color: #010101;
+}
+
+.logo {
+    width: 76%;
+}
+
+/* .getin{
+    padding: 12px 20px;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    font-size: 15px;
+} */
+
+
+.graysecond{
+    color:#848484;
+}
+
+.linewidth{
+    width: 90%;
+    height: 0.5px;
+    background-color: black;
+}
+
+
+.linkdingap{
+    gap: 20px;
+}
+.navbAR {
+    gap: 30px;
+    color: white;
+    font-size: 16px;
+}
+header{
+    z-index: 3;
+}
+
+.banner {
+    background-image: url(../assets/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 130px;
+
+}
+
+
+.fontBlackbold{
+    color: black;
+    font-weight: 600;
+}
+
+.cutomContainer {
+    max-width: 1400px;
+    padding: 50px;
+}
+
+.box2about {
+    width: 29%;
+}
+
+.imgAbout img {
+    width: 65%;
+}
+
+/* .mainboxabout{
+    gap: 20px;
+} */
+
+.aboutHeading {
+    width: 20%;
+}
+
+
+.centerpara {
+    position: absolute;
+    text-align: center;
+    top: 34%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    font-weight: 400;
+    font-family: gilroyRegular;
+}
+
+.widthbutton {
+    width: 12%;
+}
+
+.imgservices {
+    width: 25%;
+}
+
+.imgservices img {
+    width: 100%;
+}
+
+.servicesHeading {
+    width: 60%;
+   gap: 60px;
+}
+
+.services,
+.customized,.sliderreview {
+    background: #F3F3F3;
+}
+
+.residentbox {
+    gap: 72px;
+}
+
+.smalllooking {
+    width: 74px;
+    height: 36px;
+    margin-top: 8px;
+}
+
+.lookingimg {
+    border-radius: 20px;
+}
+
+.checkLook {
+    position: absolute;
+    left: -99px;
+    width: 30%;
+    top: 30%;
+}
+
+.heightoverflow {
+    height: 400px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+
+.deliveringBammer {
+    background: url(../assets/videoimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 30px;
+}
+
+.boxdelivering {
+    padding: 150px 80px 0;
+}
+
+.play {
+    position: absolute;
+    top: 31%;
+    left: 0;
+    right: 0;
+    width: 50px;
+    margin: auto;
+}
+
+.muchmore {
+    background: url(../assets/videoimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.inputdiv {
+    width: 80%;
+    border: 1px solid #ffffff9e;
+    border-radius: 30px;
+    position: relative;
+}
+
+input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 6px;
+}
+
+.submitbutton {
+    position: absolute;
+    right: 0;
+}
+
+.copywrite {
+    padding-top: 250px;
+}
+
+.copyimg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+}
+
+.heightoverflow::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+::-webkit-scrollbar-button {
+    background: #ccc
+}
+
+::-webkit-scrollbar-track-piece {
+    background: #888
+}
+
+::-webkit-scrollbar-thumb {
+    background: #eee;
+}
+
+.footerliColor {
+    color: #C3C3C3;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../assets/arrowup.png) !important;
+    transform: rotate(0) !important;
+}
+
+.accordion-button::after {
+    background-image: url(../assets/arrowup.png) !important;
+    transform: rotate(180deg) !important;
+}
+
+.ifyou {
+    position: absolute;
+    font-size: 80px;
+    top: 26%;
+    left: -14%;
+    font-weight: 400;
+    font-family: gilroyRegular;
+}
+
+.Customized {
+    font-family: gilroyRegular;
+    font-size: 25px;
+}
+
+.banner h1{
+    font-family: gilroyRegular;
+    font-weight: 400;
+}
+
+
+.resimg{
+    position: absolute;
+    top: -35px;
+    left: 0;
+    width: 18%;
+    right: -27%;
+    margin: auto;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.hoverdiv{
+    position: relative;
+}
+
+.hoverdiv:hover > .resimg{
+    opacity: 1;
+}
+.residentbox h1{
+    transition: all 0.5s ease;
+}
+
+.hoverdiv:hover .residentbox h1{
+   font-size: 28px!important;
+   font-weight: bold;
+}
+
+.sliderbox{
+    border-top: 1px solid #Ccc;
+
+}
+
+
+.reviewimg{
+    width: 51px!important;
+
+}
+
+.boxredius{
+    border-radius: 30px;
+    width: 95%;
+}
+
+.sliderreview {
+    padding: 40px 18px 40px !important;
+}
+
+
+
+.inputsearchBanner{
+    position: absolute;
+    background: white;
+    left: 0;
+    margin: auto;
+    right: 0;
+    width: 30%;
+    bottom: 38px;
+    border-radius: 30px;
+    padding: 3px 15px;
+}
+
+.inputsearchBanner img{
+    width: 15px;
+    height: 15px;
+}
+
+
+.inputsearchBanner p{
+
+ font-weight: 400;
+ font-family: gilroy;
+}
+
+.chatoption{
+    position: absolute;
+    bottom: 38px;
+    right: 20px;
+    width: 40px;
+}
+
+
+
+
+
+.boxsecond{
+    background-color: #F7F7F7;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.values{
+    gap: 70px;
+}
+
+.bgaibox{
+    background-color: #121212;  
+    border-radius: 30px;
+  }
+
+
+.menowl{
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 20px 20px 0;
+}
+
+.boxmenowl{
+    width: 90%;
+}
+
+.cardiconservices{
+    width: 43px;
+}
+
+.contentCardBox{
+    padding: 20px;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.widthcutoonProject{
+    width: 46%;
+}
+
+
+.borderbutton{
+    border:1px solid black
+}
+
+
+.borderline{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 18px;
+}
+
+
+.Projectsgap{
+    gap: 20px;
+}
+
+
+.buttondivwidth{
+    width: 30%;
+}
+
+.imgfuture{
+    width: 54px;
+    height: 48px;
+    object-fit: contain;
+
+}
+
+
+.aboutbox{
+    background: #F7F7F7;
+}
+
+.aboutboxsection{
+    padding: 45px;
+    border-radius: 20px;
+    background: #F7F7F7;
+}
+
+.widthiconaabout{
+    width: 70%;
+    margin: auto;
+}
+
+
+.floatright{
+    float: right;
+}
+
+
+.mapicon{
+    width: 30px;
+}
+
+.bannerfullimg{
+    height: 453px;
+    object-fit: cover;
+}
+
+.formtosubmit label{
+    font-size: 14px;
+    font-family: gilroy;
+    font-weight: 500;
+}
+
+.formtosubmit input{
+    border-bottom: 1px solid;
+}
+
+.formtosubmit input::placeholder{
+    font-size: 14px;
+    color: #ccc;
+}
+
+
+.boxdetails{
+    padding: 30px;
+    background: white;
+    border-radius: 30px;
+
+}
+
+.submitbuttoN{
+    width: 30%;
+}
+
+
+.concrousel{
+    padding: 30px;
+    background-color: #F7F7F7;
+    border-radius: 30px;
+}
+
+.concrousel img{
+    width: 60px !important;
+}
+
+
+.selecterbox{
+    width: 40%;
+
+}
+
+
+.insightarrow{
+    height: 9px;
+
+}
+
+.bodersort{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.projects11{
+    font-size: 30px;
+}
+
+@media (max-width:700px) {
+    .mob {
+        display: block;
+    }
+
+    .desk {
+        display: none;
+    }
+
+    .responsiveBanner{
+        text-align: center;
+    }
+    .phoneonly{
+        position: absolute;
+       top: -30%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 40%;
+    }
+    .widthbutton{
+        margin-bottom: 42px;
+    }
+
+    .project2{
+        padding: 106px 0  0!important ;
+    }
+    .aboutpro2 .cutomContainer{
+        padding-left: 0!important;
+    }
+
+    .aboutpro2 .aboutboxsection{
+        padding: 22px;
+        margin-bottom: 30px;
+    }
+
+    .widthiconaabout {
+        width: 90%;
+        margin: auto;
+    }
+
+    .brderbottomwidth{
+        border-bottom: 1px solid #bbb;
+        padding-bottom: 20px;
+    }
+    .Enjoythe{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .servicestome{
+        padding: 100px 0 0 !important;
+    }
+    .phoneser{
+        border-radius: 20px;
+    }
+}
+
+@media (max-width:700px) {
+    .banner {
+        background-image: url(../assets/phoneviewBanner.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60vh;
+        padding-top: 130px;
+    
+    } 
+    .cutomContainer{
+        padding: 20px;
+    }
+
+    .aboutphone{
+        flex-direction: column;
+    }
+
+    .aboutHeading,.box2about{
+        margin-bottom: 20px
+    }
+    .aboutHeading,.box2about,.widthbutton{
+        width: 100%;
+    }
+    .servicesBoxResponsive{
+       flex-direction: column;
+       padding-bottom: 10px!important;
+    }
+
+
+    .mob .accordion-button{
+        background-color: transparent!important;
+        border: none!important;
+        /* border-bottom: 2px solid #000!important; */
+        box-shadow: inset 0 -1px 0 transparent!important;
+        padding: 0 0 15px!important;
+    }
+    .mob .accordion-item{
+        background-color: transparent!important;
+        border: none!important;
+        border-bottom: 1px solid #000!important;
+       
+    }
+    .mob .accordion-body{
+        padding: 0 0 15px!important;
+    }
+
+    .accordion-button:not(.collapsed){
+        color: black!important;
+    }
+
+    .inneraccordiantext{
+       font-weight: 400;
+       color: #585858;
+    }
+
+    .lookingRes h1{
+        font-weight: 400!important;
+        font-family: gilroyRegular;
+    }
+
+    .smalllooking{
+        margin: 0 10px;
+    }
+
+    .Exploreour{
+        margin-bottom: 120px;
+    }
+    .checkLook{
+        top: -30%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 40%;
+
+    }
+
+    .resmb{
+        margin-bottom: 80px;
+    }
+
+
+    .ifyou {
+    
+        font-size: 63px;
+        top: 58%;
+        left: 28%;
+      
+    }
+    .deliveringBammer{
+        background: none;
+        height: inherit;
+    }
+    .col-md-6 .gray{
+        margin-bottom: 20px;
+    }
+
+    .upboxfooterresp{
+        padding: 20px!important;
+    }
+
+    .continuemb{
+        margin-bottom: 30px!important;
+    }
+
+    .muchmore{
+        background-image: url(../assets//letsbegin.png);
+    }
+
+    .centerpara{
+       
+        top: 44%;
+        font-family: gilroyRegular;
+        font-size: 18px;
+    }
+    .inputdiv{
+        width: 100%;
+        margin-bottom: 40px;
+        padding: 6px;
+    }
+
+    .StayH1{
+        margin-bottom: 20px!important;
+    }
+
+    .accordionFoot .accordion-button{
+        color: white!important;
+        
+    }
+
+    .accordionFoot .accordion-item{
+       
+        border-bottom: 1px solid  #303030!important;
+       
+    }
+    .phoneimgfoot{
+        width: 63%;
+        margin: 35px auto 0;
+        display: block;
+    
+    }
+
+    .accordionFoot .accordion-button:not(.collapsed)::after {
+        background-image: url(../assets/arrowright.png) !important;
+        background-position: center;
+        background-size: auto;
+       
+    }
+    
+     .accordionFoot .accordion-button::after {
+        background-image: url(../assets/arrowright.png) !important;
+        background-position: center;
+        background-size: auto;
+        
+    }
+
+    .submitbutton {
+        position: absolute;
+        right: 0;
+        width: 48px;
+        top: 0px;
+    }
+
+    .aboutPage{
+        padding: 100px 10px 0!important;
+    }
+
+    .aboutsecond{
+        padding: 10px!important;
+    }
+    .boxsecond{
+        padding: 20px;
+    }
+    .ourvisionabout{
+        padding-left: 20px!important;
+    }
+
+    .ourvisionabout h1 br{
+        display: none;
+    } 
+
+    .Ourcore{
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }.boxmenowl{
+        width: 100%;
+    }
+    
+
+    .selecterbox{
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        width: 100%;
+        padding: 4px;
+        border-radius: 16px;
+        margin-top: 20px;
+    }
+
+    .dropdownBox{
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+        justify-content: space-between;
+    }
+
+    .tabsforMR{
+        justify-content: space-around;
+    }
+    
+}
+
