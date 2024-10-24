@@ -638,6 +638,10 @@ input {
 
 }
 
+.marbb{
+    margin-bottom: 30px;
+}
+
 .mobnav ul li{
     margin-bottom: 20px;
 }
@@ -725,6 +729,9 @@ input {
     
     } 
 
+    .marbb{
+        margin-bottom: 10px;
+    }
     .responsivemehead{
         padding-left: 10px!important;
         padding-right: 10px!important;
